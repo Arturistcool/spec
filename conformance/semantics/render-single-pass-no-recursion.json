@@ -1,0 +1,9 @@
+{
+  "op": "render",
+  "content": "X={{x}}",
+  "vars": { "x": "{{y}}" },
+  "defaults": { "y": "1" },
+  "expected": "X={{y}}",
+  "expectedExtracted": ["x"],
+  "expectedMissing": []
+}

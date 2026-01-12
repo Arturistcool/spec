@@ -1,0 +1,15 @@
+{
+  "kind": "pack",
+  "schemaVersion": "1",
+  "name": "prompts-with-empty-templates",
+  "version": "1.0.0",
+  "prompts": [
+    {
+      "kind": "prompt",
+      "schemaVersion": "1",
+      "name": "hello",
+      "content": "Hello"
+    }
+  ],
+  "templates": []
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://promptg.io/schemas/v1/template.schema.json",
+  "kind": "template",
+  "schemaVersion": "1",
+  "name": "test-plan",
+  "displayName": "Test Plan Generator",
+  "description": "Create a risk-based test plan with prioritized test cases",
+  "tags": ["testing", "qa", "planning"],
+  "author": "promptg-team",
+  "prompt": {
+    "$schema": "https://promptg.io/schemas/v1/prompt.schema.json",
+    "kind": "prompt",
+    "schemaVersion": "1",
+    "name": "test-plan",
+    "displayName": "Test Plan Generator",
+    "description": "Create a risk-based test plan with prioritized test cases",
+    "content": "Create a test plan for:\n\n**Feature:** {{feature}}\n**Language:** {{language}}\n**Goal:** {{goal}}\n\nProvide:\n1. Test cases (prioritized: P0/P1/P2)\n2. Coverage analysis (what's tested, what's not)\n3. Risk assessment\n4. Suggested test data",
+    "defaults": {
+      "language": "Unspecified",
+      "goal": "Comprehensive test coverage with risk prioritization"
+    },
+    "tags": ["testing", "qa", "planning"],
+    "author": "promptg-team",
+    "x-promptg-interactive": {
+      "feature": {
+        "question": "Describe the feature to test",
+        "required": true
+      }
+    }
+  }
+}

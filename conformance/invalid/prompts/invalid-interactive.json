@@ -1,0 +1,9 @@
+{
+  "kind": "prompt",
+  "schemaVersion": "1",
+  "name": "invalid-interactive",
+  "content": "Hello {{name}}",
+  "x-promptg-interactive": {
+    "name": {}
+  }
+}

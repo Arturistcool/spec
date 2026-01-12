@@ -1,0 +1,21 @@
+{
+  "$schema": "https://promptg.io/schemas/v1/prompt.schema.json",
+  "kind": "prompt",
+  "schemaVersion": "1",
+  "name": "release-notes",
+  "displayName": "Release Notes Generator",
+  "description": "Generate release notes from git log output",
+  "content": "Generate release notes for version {{version}}.\n\nChanges since last release:\n{{changes}}\n\nFormat the output as:\n- User-facing changes (features, fixes)\n- Breaking changes (if any)\n- Deprecations\n- Technical changes",
+  "defaults": {
+    "version": "1.0.0"
+  },
+  "tags": ["release", "documentation", "changelog"],
+  "author": "promptg-team",
+  "x-promptg-interactive": {
+    "changes": {
+      "question": "Paste git log output or changelog",
+      "help": "Output from: git log --oneline v1.0.0..HEAD",
+      "required": true
+    }
+  }
+}

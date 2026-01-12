@@ -1,0 +1,16 @@
+{
+  "kind": "template",
+  "schemaVersion": "1",
+  "name": "invalid-createdAt-template",
+  "displayName": "Invalid createdAt",
+  "description": "createdAt must be an RFC 3339 date-time string",
+  "x-promptg-time": {
+    "createdAt": 123
+  },
+  "prompt": {
+    "kind": "prompt",
+    "schemaVersion": "1",
+    "name": "embedded",
+    "content": "Hello"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "pack",
+  "schemaVersion": "1",
+  "name": "test-pack",
+  "version": "1.0.0",
+  "templates": [
+    {
+      "kind": "template",
+      "schemaVersion": "1",
+      "name": "hello",
+      "displayName": "Hello Template",
+      "description": "A simple hello template",
+      "prompt": {
+        "kind": "prompt",
+        "schemaVersion": "1",
+        "name": "hello",
+        "content": "Hello, {{name}}!"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "op": "render",
+  "content": "Lang={{language}}",
+  "vars": { "language": "Go" },
+  "defaults": { "language": "TypeScript" },
+  "expected": "Lang=Go",
+  "expectedExtracted": ["language"],
+  "expectedMissing": []
+}

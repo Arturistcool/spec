@@ -1,0 +1,37 @@
+{
+  "$schema": "https://promptg.io/schemas/v1/template.schema.json",
+  "kind": "template",
+  "schemaVersion": "1",
+  "name": "pr-review",
+  "displayName": "PR Review",
+  "description": "Review a pull request diff for correctness, security, and maintainability",
+  "tags": ["review", "pr", "diff"],
+  "author": "promptg-team",
+  "prompt": {
+    "$schema": "https://promptg.io/schemas/v1/prompt.schema.json",
+    "kind": "prompt",
+    "schemaVersion": "1",
+    "name": "pr-review",
+    "displayName": "PR Review",
+    "description": "Review a pull request diff for correctness, security, and maintainability",
+    "content": "Review this pull request:\n\n**Language:** {{language}}\n**Focus:** {{goal}}\n\n**Diff:**\n{{diff}}\n\n**Context:** {{context}}\n\nProvide:\n1. Summary (what changed and why)\n2. Top risks (security, correctness, performance)\n3. Suggested fixes\n4. Questions for the author",
+    "defaults": {
+      "language": "Unspecified",
+      "goal": "Review for correctness, security, and maintainability",
+      "context": "None"
+    },
+    "tags": ["review", "pr", "diff"],
+    "author": "promptg-team",
+    "x-promptg-interactive": {
+      "diff": {
+        "question": "Paste the PR diff",
+        "help": "Use: git diff origin/main...HEAD",
+        "required": true
+      },
+      "language": {
+        "question": "What programming language?",
+        "help": "E.g., TypeScript, Python, Rust"
+      }
+    }
+  }
+}

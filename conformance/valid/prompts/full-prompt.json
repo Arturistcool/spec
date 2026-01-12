@@ -1,0 +1,24 @@
+{
+  "$schema": "https://promptg.io/schemas/v1/prompt.schema.json",
+  "kind": "prompt",
+  "schemaVersion": "1",
+  "name": "code-review",
+  "displayName": "Code Review",
+  "description": "Review code for correctness and security",
+  "content": "Review this {{language}} code for {{focus}} issues:\n\n{{code}}",
+  "defaults": {
+    "language": "TypeScript",
+    "focus": "security"
+  },
+  "tags": ["review", "security"],
+  "author": "promptg-team",
+  "x-promptg-interactive": {
+    "code": {
+      "question": "Paste the code to review",
+      "required": true
+    }
+  },
+  "x-promptg-time": {
+    "createdAt": "2025-01-15T10:30:00Z"
+  }
+}

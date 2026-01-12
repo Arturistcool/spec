@@ -1,0 +1,9 @@
+{
+  "kind": "prompt",
+  "schemaVersion": "1",
+  "name": "invalid-defaults-key",
+  "content": "Hello {{name}}",
+  "defaults": {
+    "bad.key": "value"
+  }
+}

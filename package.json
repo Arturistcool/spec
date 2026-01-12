@@ -1,0 +1,51 @@
+{
+  "name": "promptg-spec",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PromptG specification and JSON schemas",
+  "type": "module",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "npm run format:check && npm test",
+    "validate:schemas": "node scripts/validate-schemas.js",
+    "validate:examples": "node scripts/validate-examples.js",
+    "test:conformance": "node scripts/test-conformance.js",
+    "test:semantics": "node scripts/test-semantics.js",
+    "test:encoding": "node scripts/test-encoding.js",
+    "test": "npm run validate:schemas && npm run validate:examples && npm run test:conformance && npm run test:semantics && npm run test:encoding"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/promptg/spec.git"
+  },
+  "keywords": [
+    "promptg",
+    "specification",
+    "json-schema",
+    "prompts",
+    "llm",
+    "ai"
+  ],
+  "author": "Steve Papa <steve@promptg.io>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/promptg/spec/issues"
+  },
+  "homepage": "https://promptg.io",
+  "devDependencies": {
+    "ajv": "^8.12.0",
+    "ajv-formats": "^3.0.1",
+    "glob": "^10.3.10",
+    "prettier": "^3.7.4"
+  },
+  "files": [
+    "spec/",
+    "schemas/",
+    "examples/",
+    "docs/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ]
+}

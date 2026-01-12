@@ -1,0 +1,7 @@
+{
+  "kind": "prompt",
+  "schemaVersion": "1",
+  "name": "invalid-tag-format",
+  "content": "Hello",
+  "tags": ["bad_tag"]
+}

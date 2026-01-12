@@ -1,0 +1,7 @@
+{
+  "kind": "pack",
+  "schemaVersion": "1",
+  "name": "empty-prompts-only",
+  "version": "1.0.0",
+  "prompts": []
+}

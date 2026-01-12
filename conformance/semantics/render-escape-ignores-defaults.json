@@ -1,0 +1,9 @@
+{
+  "op": "render",
+  "content": "{{!a}} {{a}}",
+  "vars": {},
+  "defaults": { "a": "x" },
+  "expected": "{{a}} x",
+  "expectedExtracted": ["a"],
+  "expectedMissing": []
+}

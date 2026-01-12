@@ -1,0 +1,5 @@
+{
+  "op": "extract",
+  "content": "{{a}} {{A}}",
+  "expected": ["A", "a"]
+}

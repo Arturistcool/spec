@@ -1,0 +1,12 @@
+{
+  "kind": "template",
+  "schemaVersion": "1",
+  "name": "prompt-missing-content",
+  "displayName": "Prompt Missing Content",
+  "description": "Embedded prompt missing required content field",
+  "prompt": {
+    "kind": "prompt",
+    "schemaVersion": "1",
+    "name": "prompt-missing-content"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "https://promptg.io/schemas/v1/pack.schema.json",
+  "kind": "pack",
+  "schemaVersion": "1",
+  "name": "starter-kit",
+  "version": "1.0.0",
+  "displayName": "PromptG Starter Kit",
+  "description": "Essential prompts and templates for getting started with PromptG",
+  "author": "promptg-team",
+  "homepage": "https://promptg.io",
+  "tags": ["starter", "essentials", "examples"],
+  "templates": [
+    {
+      "$schema": "https://promptg.io/schemas/v1/template.schema.json",
+      "kind": "template",
+      "schemaVersion": "1",
+      "name": "code-review",
+      "displayName": "Code Review",
+      "description": "Review code for correctness and security",
+      "prompt": {
+        "$schema": "https://promptg.io/schemas/v1/prompt.schema.json",
+        "kind": "prompt",
+        "schemaVersion": "1",
+        "name": "code-review",
+        "displayName": "Code Review",
+        "description": "Review code for correctness and security",
+        "content": "Review this {{language}} code:\n\n{{code}}"
+      }
+    }
+  ],
+  "prompts": [
+    {
+      "kind": "prompt",
+      "schemaVersion": "1",
+      "name": "hello",
+      "content": "Hello, world! This is a simple example prompt."
+    }
+  ]
+}

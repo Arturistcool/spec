@@ -1,0 +1,11 @@
+{
+  "kind": "prompt",
+  "schemaVersion": "1",
+  "name": "invalid-interactive-key",
+  "content": "Hello {{name}}",
+  "x-promptg-interactive": {
+    "bad key": {
+      "question": "What is your name?"
+    }
+  }
+}

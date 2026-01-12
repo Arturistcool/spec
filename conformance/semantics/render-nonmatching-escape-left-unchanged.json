@@ -1,0 +1,9 @@
+{
+  "op": "render",
+  "content": "Not escape: {{! a}} {{!a }} {{!}} {{!name",
+  "vars": { "a": "1", "name": "x" },
+  "defaults": {},
+  "expected": "Not escape: {{! a}} {{!a }} {{!}} {{!name",
+  "expectedExtracted": [],
+  "expectedMissing": []
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://promptg.io/schemas/v1/prompt.schema.json",
+  "kind": "prompt",
+  "schemaVersion": "1",
+  "name": "code-review",
+  "displayName": "Code Review",
+  "description": "Review code for correctness, security, and maintainability",
+  "content": "Review this {{language}} code for {{focus}} issues:\n\n{{code}}\n\nProvide specific feedback on:\n- Correctness\n- Security vulnerabilities\n- Performance concerns\n- Maintainability",
+  "defaults": {
+    "language": "TypeScript",
+    "focus": "all aspects"
+  },
+  "tags": ["review", "code-quality", "security"],
+  "author": "promptg-team"
+}

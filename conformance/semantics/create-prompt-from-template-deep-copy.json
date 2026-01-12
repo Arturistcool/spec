@@ -1,0 +1,45 @@
+{
+  "op": "instantiate",
+  "template": {
+    "$schema": "https://promptg.io/schemas/v1/template.schema.json",
+    "kind": "template",
+    "schemaVersion": "1",
+    "name": "pr-review-template",
+    "displayName": "PR Review (Template)",
+    "description": "Template metadata for discovery and selection",
+    "tags": ["review-template"],
+    "x-wrapper-example": { "note": "wrapper extension fields must not affect output" },
+    "prompt": {
+      "$schema": "https://promptg.io/schemas/v1/prompt.schema.json",
+      "kind": "prompt",
+      "schemaVersion": "1",
+      "name": "pr-review",
+      "displayName": "PR Review",
+      "description": "Review a pull request diff for correctness and security",
+      "tags": ["review", "security"],
+      "author": "promptg-team",
+      "defaults": { "language": "TypeScript" },
+      "x-promptg-interactive": {
+        "diff": { "question": "Paste the diff" }
+      },
+      "x-example": "example-extension",
+      "content": "Review this {{language}} PR for {{focus}}: {{diff}}"
+    }
+  },
+  "expected": {
+    "$schema": "https://promptg.io/schemas/v1/prompt.schema.json",
+    "kind": "prompt",
+    "schemaVersion": "1",
+    "name": "pr-review",
+    "displayName": "PR Review",
+    "description": "Review a pull request diff for correctness and security",
+    "tags": ["review", "security"],
+    "author": "promptg-team",
+    "defaults": { "language": "TypeScript" },
+    "x-promptg-interactive": {
+      "diff": { "question": "Paste the diff" }
+    },
+    "x-example": "example-extension",
+    "content": "Review this {{language}} PR for {{focus}}: {{diff}}"
+  }
+}

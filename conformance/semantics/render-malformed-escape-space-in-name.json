@@ -1,0 +1,9 @@
+{
+  "op": "render",
+  "content": "Bad: {{!na me}} {{! name}}",
+  "vars": { "na": "1", "me": "2", "name": "3" },
+  "defaults": {},
+  "expected": "Bad: {{!na me}} {{! name}}",
+  "expectedExtracted": [],
+  "expectedMissing": []
+}

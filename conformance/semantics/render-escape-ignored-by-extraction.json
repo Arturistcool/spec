@@ -1,0 +1,9 @@
+{
+  "op": "render",
+  "content": "Only escaped: {{!a}}",
+  "vars": {},
+  "defaults": { "a": "1" },
+  "expected": "Only escaped: {{a}}",
+  "expectedExtracted": [],
+  "expectedMissing": []
+}

@@ -1,0 +1,9 @@
+{
+  "kind": "prompt",
+  "schemaVersion": "1",
+  "name": "test",
+  "content": "Test",
+  "x-promptg-time": {
+    "createdAt": 123
+  }
+}

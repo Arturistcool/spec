@@ -1,0 +1,21 @@
+{
+  "kind": "pack",
+  "schemaVersion": "1",
+  "name": "mismatched-embedded-schema-version",
+  "version": "1.0.0",
+  "templates": [
+    {
+      "kind": "template",
+      "schemaVersion": "2",
+      "name": "hello",
+      "displayName": "Hello Template",
+      "description": "Schema version differs from pack",
+      "prompt": {
+        "kind": "prompt",
+        "schemaVersion": "2",
+        "name": "hello",
+        "content": "Hello, {{name}}!"
+      }
+    }
+  ]
+}

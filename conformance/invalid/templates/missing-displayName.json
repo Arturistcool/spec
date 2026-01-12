@@ -1,0 +1,12 @@
+{
+  "kind": "template",
+  "schemaVersion": "1",
+  "name": "missing-displayname",
+  "description": "Missing displayName",
+  "prompt": {
+    "kind": "prompt",
+    "schemaVersion": "1",
+    "name": "missing-displayname",
+    "content": "Hello"
+  }
+}

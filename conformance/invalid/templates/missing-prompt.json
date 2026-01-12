@@ -1,0 +1,7 @@
+{
+  "kind": "template",
+  "schemaVersion": "1",
+  "name": "missing-prompt",
+  "displayName": "Missing Prompt",
+  "description": "Template missing required prompt payload"
+}

@@ -1,0 +1,9 @@
+{
+  "op": "render",
+  "content": "Lang={{language}} Focus={{focus}}",
+  "vars": { "focus": "security" },
+  "defaults": { "language": "TypeScript" },
+  "expected": "Lang=TypeScript Focus=security",
+  "expectedExtracted": ["language", "focus"],
+  "expectedMissing": []
+}

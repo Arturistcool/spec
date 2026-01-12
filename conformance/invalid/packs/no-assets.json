@@ -1,0 +1,8 @@
+{
+  "kind": "pack",
+  "schemaVersion": "1",
+  "name": "no-assets",
+  "version": "1.0.0",
+  "prompts": [],
+  "templates": []
+}

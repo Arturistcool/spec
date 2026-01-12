@@ -1,0 +1,13 @@
+{
+  "kind": "template",
+  "schemaVersion": "1",
+  "name": "pr-review",
+  "displayName": "PR Review",
+  "description": "Review a pull request diff",
+  "prompt": {
+    "kind": "prompt",
+    "schemaVersion": "1",
+    "name": "pr-review",
+    "content": "Review this PR: {{diff}}"
+  }
+}

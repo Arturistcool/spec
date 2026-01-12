@@ -1,0 +1,13 @@
+{
+  "kind": "template",
+  "schemaVersion": "1",
+  "name": "empty-content",
+  "displayName": "Empty Content",
+  "description": "Template with empty content",
+  "prompt": {
+    "kind": "prompt",
+    "schemaVersion": "1",
+    "name": "empty-content",
+    "content": ""
+  }
+}

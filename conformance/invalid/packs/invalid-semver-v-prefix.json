@@ -1,0 +1,16 @@
+{
+  "kind": "pack",
+  "schemaVersion": "1",
+  "name": "invalid-semver-v-prefix",
+  "version": "v1.0.0",
+  "templates": [
+    {
+      "kind": "template",
+      "schemaVersion": "1",
+      "name": "hello",
+      "displayName": "Hello",
+      "description": "Hello",
+      "content": "Hello"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "kind": "pack",
+  "schemaVersion": "1",
+  "name": "invalid-semver",
+  "version": "1.0",
+  "templates": [
+    {
+      "kind": "template",
+      "schemaVersion": "1",
+      "name": "hello",
+      "displayName": "Hello",
+      "description": "Hello",
+      "content": "Hello"
+    }
+  ]
+}

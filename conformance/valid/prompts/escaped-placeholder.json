@@ -1,0 +1,7 @@
+{
+  "$schema": "https://promptg.io/schemas/v1/prompt.schema.json",
+  "kind": "prompt",
+  "schemaVersion": "1",
+  "name": "escaped-placeholder",
+  "content": "{{!a}} {{a}}"
+}

@@ -1,0 +1,13 @@
+{
+  "kind": "template",
+  "schemaVersion": "1",
+  "name": "mismatched-schema-version",
+  "displayName": "Mismatched Schema Version",
+  "description": "Embedded prompt schemaVersion differs from template schemaVersion",
+  "prompt": {
+    "kind": "prompt",
+    "schemaVersion": "2",
+    "name": "mismatched-schema-version",
+    "content": "Hello"
+  }
+}

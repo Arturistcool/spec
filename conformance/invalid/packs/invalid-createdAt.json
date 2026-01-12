@@ -1,0 +1,17 @@
+{
+  "kind": "pack",
+  "schemaVersion": "1",
+  "name": "invalid-createdAt-pack",
+  "version": "1.0.0",
+  "x-promptg-time": {
+    "createdAt": 123
+  },
+  "prompts": [
+    {
+      "kind": "prompt",
+      "schemaVersion": "1",
+      "name": "hello",
+      "content": "Hello"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://promptg.io/schemas/v1/prompt.schema.json",
+  "kind": "prompt",
+  "schemaVersion": "1",
+  "name": "escaped-placeholder",
+  "displayName": "Escaped Placeholder Demo",
+  "description": "Demonstrates escaping {{!name}} to output a literal {{name}} placeholder",
+  "content": "This prompt demonstrates escaped placeholders.\n\nLiteral placeholder output:\n  {{!name}}\n\nNow render a real variable:\n  Hello, {{name}}!",
+  "defaults": {
+    "name": "world"
+  },
+  "tags": ["example", "variables"]
+}
