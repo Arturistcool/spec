@@ -1,9 +1,11 @@
 {
-  "name": "promptg-spec",
-  "version": "1.0.0",
-  "private": true,
-  "description": "PromptG specification and JSON schemas",
+  "name": "@promptg/spec",
+  "version": "1.0.1",
+  "description": "PromptG open specification + JSON Schemas for prompts, templates, and prompt packs (the companion standard to the @promptg/cli ecosystem).",
   "type": "module",
+  "engines": {
+    "node": ">=20.12.0"
+  },
   "scripts": {
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -13,7 +15,8 @@
     "test:conformance": "node scripts/test-conformance.js",
     "test:semantics": "node scripts/test-semantics.js",
     "test:encoding": "node scripts/test-encoding.js",
-    "test": "npm run validate:schemas && npm run validate:examples && npm run test:conformance && npm run test:semantics && npm run test:encoding"
+    "test": "npm run validate:schemas && npm run validate:examples && npm run test:conformance && npm run test:semantics && npm run test:encoding",
+    "prepack": "npm test"
   },
   "repository": {
     "type": "git",
@@ -21,11 +24,38 @@
   },
   "keywords": [
     "promptg",
-    "specification",
-    "json-schema",
+    "prompt",
     "prompts",
+    "rag",
+    "agentic",
+    "developer-tools",
+    "cli",
     "llm",
-    "ai"
+    "ai",
+    "generative-ai",
+    "genai",
+    "gpt",
+    "openai",
+    "chatgpt",
+    "anthropic",
+    "claude",
+    "gemini",
+    "ollama",
+    "automation",
+    "devops",
+    "workflow",
+    "ai-sdk",
+    "mcp",
+    "model-context-protocol",
+    "function-calling",
+    "prompt-engineering",
+    "prompt-management",
+    "prompt-template",
+    "prompt-chaining",
+    "prompts-as-code",
+    "llmops",
+    "agents",
+    "ai-agents"
   ],
   "author": "Steve Papa <steve@promptg.io>",
   "license": "Apache-2.0",
@@ -33,6 +63,9 @@
     "url": "https://github.com/promptg/spec/issues"
   },
   "homepage": "https://promptg.io",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "ajv": "^8.12.0",
     "ajv-formats": "^3.0.1",
